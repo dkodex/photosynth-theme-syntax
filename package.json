@@ -1,0 +1,21 @@
+{
+  "name": "photosynth-theme-syntax",
+  "theme": "photosynth",
+  "version": "0.1.0",
+  "description": "Syntax theme for the ATOM editor inspired by green monochrome monitors of the past",
+  "keywords": [
+    "syntax",
+    "theme",
+    "photosynth",
+    "fallout",
+    "pipboy",
+    "pip-boy",
+    "green monochrome",
+    "monochrome"
+  ],
+  "repository": "https://github.com/dkodex/photosynth-theme-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
