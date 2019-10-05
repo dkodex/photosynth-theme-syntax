@@ -74,7 +74,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @terminal-white;
   }
 }
 
@@ -83,14 +83,14 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @terminal-white;
 
   &.syntax--character.syntax--escape {
     color: @cyan;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @terminal-white;
   }
 
   &.syntax--other.syntax--color {
@@ -103,10 +103,10 @@ atom-text-editor {
 }
 
 .syntax--variable {
-  color: @red;
+  color: @terminal-highlight;
 
   &.syntax--interpolation {
-    color: darken(@red, 10%);
+    color: darken(@terminal-highlight, 10%);
   }
 
   &.syntax--parameter.syntax--function {
@@ -127,7 +127,7 @@ atom-text-editor {
     color: @cyan;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @orange;
+      color: @terminal-white;
     }
   }
 
@@ -211,7 +211,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @terminal-white;
 
     &.syntax--id {
       color: @blue;
@@ -225,7 +225,7 @@ atom-text-editor {
   }
 
   &.syntax--link {
-    color: @orange;
+    color: @terminal-white;
   }
 
   &.syntax--require {
@@ -248,7 +248,7 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
+    color: @terminal-white;
     font-weight: bold;
   }
 
@@ -278,7 +278,7 @@ atom-text-editor {
   }
 
   &.syntax--quote {
-    color: @orange;
+    color: @terminal-white;
   }
 
   &.syntax--raw.syntax--inline {
